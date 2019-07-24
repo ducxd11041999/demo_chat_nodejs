@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000");///kết nối lên server
+var socket = io("https://chateme.herokuapp.com");///kết nối lên server
 $(document).ready(function()
 	{
 		$("#loginForm").show()

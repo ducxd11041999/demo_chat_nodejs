@@ -10,7 +10,7 @@ app.set("views","./views" )
 
 /*code here*/0
 var arrOnline = []
-server.listen(3000,function()// kết nối server port 3000
+server.listen(process.env.PORT ||3000,function()// kết nối server port 3000
 	{
 		console.log("connected <3");
 	});
